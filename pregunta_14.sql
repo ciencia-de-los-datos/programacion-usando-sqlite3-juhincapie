@@ -43,4 +43,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT a.K0, b.avg(c21) from tbl1 a JOIN (SELECT K1, c21 FROM tbl2) b ON(a.K1=b.K1) ;
